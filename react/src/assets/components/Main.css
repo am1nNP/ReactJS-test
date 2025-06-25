@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5rem ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: auto;
+    box-shadow: 1px 1px 5px #d4d4d4;
+    margin-bottom: 3rem;
+    text-overflow: clip;
+    overflow: hidden;
+    padding: 1rem;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fcfcfc;
+}
+
+.imageBox{
+    width: 100%;
+    height: 12rem;
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.description{
+    -webkit-line-clamp: 2;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  overflow: clip;
+  text-overflow: clip;
+  display: -webkit-box;
+  color: #000000a2;
+  font-size: small;
+}
+
+.title{
+    -webkit-line-clamp: 2;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  overflow: clip;
+  text-overflow: clip;
+  display: -webkit-box;
+
+}
+.price{
+    font-weight: bold;
+    font-size: small;
+}
+.btn-purchase{
+    width: 5rem;
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(40, 151, 40);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-purchase:hover{
+    box-shadow: 2px 2px 3px 1px #d4d4d4;
+}

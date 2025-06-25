@@ -1,0 +1,40 @@
+.NavBar{
+  display: flex;
+  max-width: 100%;
+  max-height:auto;
+  background-color: antiquewhite;
+  padding: 0.7rem 0rem;
+}
+
+.left_section{
+  margin-right: 1rem;
+  width: 35%;
+}
+.right_section{
+  width: 60%;
+}
+.list{
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  height: 100%;
+  padding: 0rem 3rem;
+  list-style: none;
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.items > input{
+  width: 40rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.items > .logOut{
+  font-weight: 200;
+}
